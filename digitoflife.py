@@ -1,5 +1,5 @@
 # SkillsForAll
-# Python Essentials 2 - 2.4.9 LAB
+# Python Essentials 2 - 2.5.9 LAB
 # The Digit of Life
 
 bday = input("What is your birthday date YYYYMMDD, YYYYDDMM, or MMDDYYYY?")
