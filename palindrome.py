@@ -3,10 +3,10 @@
 # Palindrome
 
 def is_palindrome(text):
-    if text == "":
-        return False
-    
     text = text.upper().replace(" ", "")
+    
+    if len(text) < 1:
+        return False
     
     for i in range(len(text) // 2):
         if text[i] != text[-(i + 1)]:
